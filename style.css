@@ -157,7 +157,8 @@ main {
   margin-top: 1.5rem;
   background-color: var(--darkBlue);
   padding: 0.5em 1em;
-  border-radius: 30px;
+  display: grid;
+  border-radius: 1em;
 }
 
 .card-thanks p {
@@ -165,7 +166,7 @@ main {
   max-width: 31ch;
 }
 
-@media (min-width: 600px) {
+@media (min-width: calc((600 / 16) * 1rem)) {
   .card-thanks p {
     max-width: 35ch;
   }
