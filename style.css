@@ -37,6 +37,8 @@ body {
 }
 
 button {
+  border: none;
+  cursor: pointer;
   font: inherit;
 }
 
@@ -87,10 +89,8 @@ main {
 
 .btn-rating {
   background-color: var(--darkBlue);
-  border: none;
   border-radius: 100%;
   color: var(--lightGray);
-  cursor: pointer;
   display: grid;
   height: 3em;
   place-items: center;
@@ -112,10 +112,8 @@ main {
 
 .btn-submit-rating {
   background-color: var(--orange);
-  border: none;
   border-radius: 1.5em;
   color: var(--white);
-  cursor: pointer;
   display: grid;
   height: 3em;
   letter-spacing: 0.125em;
